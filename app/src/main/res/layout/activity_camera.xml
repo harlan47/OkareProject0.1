@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#ffd700"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="影像"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#505050"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="88"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:paddingBottom="5dp"
+        android:background="#ffd700"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home"
+            android:background="#ffd700"
+            />
+        <ImageButton
+            android:id="@+id/button_video"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/video"
+            android:background="#ffd700"
+            />
+        <ImageButton
+            android:id="@+id/button_alert"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/alert"
+            android:background="#ffd700"
+            />
+        <ImageButton
+            android:id="@+id/button_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/setting"
+            android:background="#ffd700"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
